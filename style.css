@@ -290,3 +290,28 @@ textarea{
     margin-left:15px;
     text-decoration:none;
 }
+.why-us{
+padding:80px 8%;
+background:#0D1726;
+text-align:center;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.why-card{
+background:#12233D;
+padding:30px;
+border-radius:16px;
+transition:.3s;
+border:1px solid rgba(30,136,255,.3);
+}
+
+.why-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 30px rgba(30,136,255,.2);
+}
