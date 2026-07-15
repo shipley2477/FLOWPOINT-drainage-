@@ -51,20 +51,21 @@ Available 24 Hours a Day • 7 Days a Week
 
 <h2 style="margin-top:50px;">Request a Callback</h2>
 
-<form action="https://formsubmit.co/harvey@flowpointdrainage.com" method="POST">
-  <input type="hidden" name="_subject" value="New enquiry from FLOWPOINT Drainage">
+<form action="https://formsubmit.co/Harvey@flowpointdrainage.com" method="POST">
+
+<input type="hidden" name="_subject" value="New enquiry from FLOWPOINT Drainage">
 <input type="hidden" name="_captcha" value="false">
 
-<input type="text" placeholder="Your Name">
+<input type="text" name="name" placeholder="Your Name" required>
 
-<input type="tel" placeholder="Phone Number">
+<input type="tel" name="phone" placeholder="Phone Number" required>
 
-<input type="text" placeholder="Postcode">
+<input type="text" name="postcode" placeholder="Postcode">
 
-<textarea placeholder="Tell us about your drainage problem"></textarea>
+<textarea name="message" placeholder="Tell us about your drainage issue" required></textarea>
 
-<button class="button">
-Request Callback
+<button type="submit" class="button">
+    Request Callback
 </button>
 
 </form>
