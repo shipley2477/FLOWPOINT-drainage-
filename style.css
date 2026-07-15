@@ -394,3 +394,20 @@ box-shadow:0 10px 30px rgba(30,136,255,.2);
     margin:10px 0;
     color:#ccc;
 }
+.floating-call{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#1E88FF;
+    color:#fff;
+    padding:16px 24px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 8px 25px rgba(0,0,0,.3);
+    z-index:999;
+}
+
+.floating-call:hover{
+    background:#0066cc;
+}
