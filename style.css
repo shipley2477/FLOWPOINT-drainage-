@@ -411,3 +411,13 @@ box-shadow:0 10px 30px rgba(30,136,255,.2);
 .floating-call:hover{
     background:#0066cc;
 }
+.logo{
+    text-align:center;
+    padding:20px;
+}
+
+.logo img{
+    width:220px;
+    max-width:90%;
+    height:auto;
+}
