@@ -315,3 +315,32 @@ border:1px solid rgba(30,136,255,.3);
 transform:translateY(-8px);
 box-shadow:0 10px 30px rgba(30,136,255,.2);
 }
+.reviews{
+    padding:80px 8%;
+    background:#101b2d;
+    text-align:center;
+}
+
+.review-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.review-card{
+    background:#16253D;
+    padding:30px;
+    border-radius:15px;
+    color:#fff;
+}
+
+.review-card p{
+    margin:20px 0;
+    color:#ddd;
+    line-height:1.6;
+}
+
+.review-card strong{
+    color:#1E88FF;
+}
