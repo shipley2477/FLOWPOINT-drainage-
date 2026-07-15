@@ -211,3 +211,12 @@ body{
     border:1px solid #1E88FF;
     font-size:15px;
 }
+.reviews{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.reviews h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
