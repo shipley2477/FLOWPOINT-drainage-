@@ -378,3 +378,19 @@ box-shadow:0 10px 30px rgba(30,136,255,.2);
 .areas p{
     color:#ddd;
 }
+.footer{
+    background:#08111F;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.footer h2{
+    color:#1E88FF;
+    margin-bottom:15px;
+}
+
+.footer p{
+    margin:10px 0;
+    color:#ccc;
+}
