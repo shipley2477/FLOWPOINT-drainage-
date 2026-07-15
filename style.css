@@ -220,3 +220,34 @@ body{
     font-size:40px;
     margin-bottom:40px;
 }
+.gallery{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.gallery h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.gallery p{
+    color:#ccc;
+    margin-bottom:40px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery-grid img{
+    width:100%;
+    border-radius:15px;
+    border:2px solid #1E88FF;
+    transition:0.3s;
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.03);
+}
