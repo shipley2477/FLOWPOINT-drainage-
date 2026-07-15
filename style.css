@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#08111F;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#0D1726;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#1E88FF;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#1E88FF;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(135deg,#08111F,#10284A);
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    color:#d6d6d6;
+    margin-bottom:40px;
+}
+
+.button{
+    display:inline-block;
+    background:#1E88FF;
+    color:white;
+    padding:18px 35px;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:20px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#0D6EFD;
+    transform:scale(1.05);
+}
+
+.services{
+    padding:80px 8%;
+}
+
+.services h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.card{
+    background:#10233D;
+    padding:30px;
+    margin-bottom:20px;
+    border-left:5px solid #1E88FF;
+    border-radius:12px;
+    font-size:22px;
+}
+
+footer{
+    background:#0D1726;
+    text-align:center;
+    padding:40px;
+    margin-top:60px;
+}
