@@ -187,3 +187,27 @@ footer{
     font-size:22px;
     margin-bottom:35px;
 }
+.contact{
+    padding:80px 8%;
+    text-align:center;
+    background:#08111F;
+}
+
+.contact h2{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.contact p{
+    font-size:22px;
+    margin:15px 0;
+}
+
+.contact a{
+    color:#1E88FF;
+    text-decoration:none;
+}
+
+.contact a:hover{
+    text-decoration:underline;
+}
