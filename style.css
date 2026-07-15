@@ -240,3 +240,40 @@ textarea{
 textarea{
     min-height:180px;
 }
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(135deg,#08111F,#0B2445,#08111F);
+}
+
+.hero-overlay{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:64px;
+    margin-bottom:20px;
+    color:white;
+}
+
+.hero h2{
+    color:#1E88FF;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:40px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
