@@ -277,3 +277,16 @@ textarea{
     gap:20px;
     flex-wrap:wrap;
 }
+.top-bar{
+    background:#1E88FF;
+    color:white;
+    padding:12px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.top-bar a{
+    color:white;
+    margin-left:15px;
+    text-decoration:none;
+}
