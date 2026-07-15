@@ -251,3 +251,31 @@ body{
 .gallery-grid img:hover{
     transform:scale(1.03);
 }
+.areas{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.areas h2{
+    margin-bottom:20px;
+}
+
+.areas p{
+    max-width:800px;
+    margin:0 auto 40px;
+    color:#ccc;
+}
+
+.areas-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.areas-grid .card{
+    background:#10233D;
+    border:1px solid #1E88FF;
+    border-radius:12px;
+    padding:20px;
+    font-weight:bold;
+}
