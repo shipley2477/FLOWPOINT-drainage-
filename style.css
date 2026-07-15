@@ -211,3 +211,14 @@ footer{
 .contact a:hover{
     text-decoration:underline;
 }
+.areas{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.areas-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
