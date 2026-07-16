@@ -60,19 +60,21 @@ body{
 .hero-overlay{
     max-width:900px;
 }
-
 .hero h1{
-    font-size:48px;
+    font-size:56px;
     color:#fff;
-    margin-bottom:20px;
+    margin-bottom:16px;
     line-height:1.1;
+    font-weight:800;
 }
-
 .hero h2{
     color:#1E88FF;
-    font-size:26px;
-    margin-bottom:30px;
+    font-size:30px;
+    font-weight:600;
+    margin-bottom:24px;
 }
+
+
 
 .hero p{
     font-size:20px;
@@ -87,21 +89,29 @@ body{
     gap:20px;
     flex-wrap:wrap;
 }
-
 .button{
-    display:inline-block;
-    background:#1E88FF;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    background:linear-gradient(135deg,#2D8CFF,#1E6EEB);
     color:#fff;
     text-decoration:none;
-    padding:18px 35px;
-    border-radius:50px;
-    font-size:20px;
-    font-weight:bold;
-    transition:.3s;
-}
 
+    padding:18px 40px;
+
+    border-radius:999px;
+
+    font-size:20px;
+    font-weight:700;
+
+    box-shadow:0 10px 25px rgba(30,136,255,.35);
+
+    transition:all .3s ease;
+}
 .button:hover{
-    background:#0D6EFD;
+    transform:translateY(-3px);
+    box-shadow:0 16px 35px rgba(30,136,255,.45);
 }
 
 .secondary{
@@ -128,14 +138,14 @@ body{
 .why-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-    gap:25px;
+    gap:18px;
     max-width:1200px;
     margin:auto;
 }
 .why-card{
     background:#132847;
     border:1px solid rgba(45,140,255,.35);
-    border-radius:20px;
+    border-radius:24px;
     padding:28px;
     text-align:center;
 
@@ -153,6 +163,10 @@ position:relative;
     right:0;
     height:4px;
     background:#2d8cff;
+    min-height:220px;
+display:flex;
+flex-direction:column;
+justify-content:center;
 }
 .why-card h3{
     color:#fff;
