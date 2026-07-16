@@ -137,7 +137,7 @@ z-index:9999;
 
 .hero{
     text-align:center;
-    padding:30px 20px 50px;
+    padding:180px 20px 80px;
 }
 
 
@@ -529,10 +529,17 @@ justify-content:center;
     .navbar{
     flex-direction:column;
 }
+@media (max-width:768px){
 
-.nav-links{
-    justify-content:center;
-}
+    .nav-links{
+        gap:18px;
+        font-size:18px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+
+
 
 .hero h1{
     font-size:48px;
