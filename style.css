@@ -112,13 +112,18 @@ body{
 .why-us{
     padding:80px 20px;
 }
-
 .why-us h2{
     text-align:center;
-    font-size:48px;
+    font-size:36px;
     font-weight:700;
+    line-height:1.2;
     margin-bottom:20px;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
 }
+
+
 
 .why-grid{
     display:grid;
