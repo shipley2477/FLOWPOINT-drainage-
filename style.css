@@ -73,24 +73,23 @@ body{
 /* ===== Sticky Navigation ===== */
 
 .navbar{
-    position:sticky;
-    top:0;
-    z-index:1000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    width:100%;
+    background:rgba(8,17,31,.95);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid rgba(255,255,255,.08);
 
     display:flex;
     justify-content:space-between;
     align-items:center;
 
-    max-width:1200px;
-    margin:0 auto;
-
     padding:15px 25px;
-
-    background:rgba(8,17,31,.95);
-    backdrop-filter:blur(12px);
-
-    border-bottom:1px solid rgba(255,255,255,.08);
 }
+
+
 
 .logo img{
     width:160px;
