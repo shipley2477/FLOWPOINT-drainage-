@@ -200,22 +200,34 @@ body{
 .logo img{
     width:170px;
 }
-
-}
 .trust-badges{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
     gap:12px;
-    margin-top:30px;
+    margin:30px auto;
+    max-width:500px;
 }
 
 .trust-badges span{
-    background:#10233D;
-    padding:10px 16px;
-    border-radius:30px;
-    border:1px solid #1E88FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#11233d;
+    color:#fff;
+    border:1px solid #2d8cff;
+    border-radius:14px;
+    padding:12px;
     font-size:15px;
+    font-weight:600;
+}
+@media (max-width:600px){
+
+    .trust-badges{
+        grid-template-columns:1fr;
+    }
+
+
+
 }
 .reviews{
     padding:80px 20px;
