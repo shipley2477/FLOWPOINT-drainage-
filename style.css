@@ -115,8 +115,9 @@ body{
 
 .why-us h2{
     text-align:center;
-    font-size:42px;
-    margin-bottom:50px;
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:20px;
 }
 
 .why-grid{
@@ -126,24 +127,29 @@ body{
     max-width:1200px;
     margin:auto;
 }
-
 .why-card{
-    background:#10233D;
-    border:1px solid #1E88FF;
-    border-radius:15px;
-    padding:30px;
+    background:#132847;
+    border:1px solid rgba(45,140,255,.35);
+    border-radius:20px;
+    padding:28px;
     text-align:center;
-    transition:0.3s;
-}
 
+    box-shadow:0 8px 20px rgba(0,0,0,.20);
+
+    transition:all .3s ease;
+
+}
 .why-card h3{
     color:#fff;
-    margin-bottom:15px;
+    font-size:30px;
+    margin-bottom:12px;
+}
+.why-card p{
+    color:#cbd5e1;
+    font-size:18px;
+    line-height:1.6;
 }
 
-.why-card p{
-    color:#ccc;
-}
 .why-card:hover{
     transform:translateY(-6px);
     box-shadow:0 12px 30px rgba(0,0,0,.35);
