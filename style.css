@@ -73,9 +73,11 @@ body{
 /* ===== Sticky Navigation ===== */
 
 .navbar{
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  position: fixed;
+top:0;
+left:0;
+right:0;
+z-index:9999;
 
     width:100%;
     background:rgba(8,17,31,.95);
