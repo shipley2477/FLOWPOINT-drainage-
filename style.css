@@ -401,11 +401,27 @@ justify-content:center;
 .hero p{
     font-size:18px;
 }
-
 .button{
-    width:100%;
-    max-width:300px;
+    display:inline-block;
+    padding:18px 40px;
+    border-radius:999px;
+
+    background:linear-gradient(135deg,#2D8CFF,#5B9DFF);
+
+    color:#fff;
+    font-weight:700;
+    text-decoration:none;
+
+    transition:.3s;
+    box-shadow:0 15px 35px rgba(45,140,255,.35);
 }
+
+.button:hover{
+    transform:translateY(-4px);
+    box-shadow:0 25px 45px rgba(45,140,255,.45);
+}
+}
+    
 
 .hero-buttons{
     flex-direction:column;
@@ -540,21 +556,64 @@ justify-content:center;
     .nav-call{
         display:none;
     }
+.nav-links{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:fixed;
+    top:70px;
+    left:0;
+    width:100%;
+    background:#08111f;
 
-    .nav-links{
-        display:none;
-        position:fixed;
-        top:70px;
-        left:0;
-        width:100%;
-        background:#08111f;
-        flex-direction:column;
-        align-items:center;
-        gap:20px;
-        padding:25px 0;
-    }
+    padding:25px 0;
+    gap:20px;
 
-    .nav-links.active{
-        display:flex;
-    }
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(-20px);
+
+    transition:all .35s ease;
+}
+
+.nav-links.active{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+ .nav-links a{
+    position:relative;
+    transition:.3s;
+}
+
+.nav-links a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0;
+    height:2px;
+    background:#2D8CFF;
+    transition:.3s;
+}
+
+.nav-links a:hover::after{
+    width:100%;
+}   
+section{
+    animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+    opacity:0;
+    transform:translateY(30px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
 }
