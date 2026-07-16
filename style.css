@@ -572,3 +572,28 @@ justify-content:center;
     display:flex;
     justify-content:center;
 }
+/* ===== Mobile Navigation ===== */
+@media (max-width:768px){
+
+    header{
+        padding-top:110px;
+    }
+
+    .navbar{
+        padding:12px;
+    }
+
+    .nav-links{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:16px;
+    }
+
+    .nav-call{
+        display:none;
+    }
+
+header{
+    padding-top:110px;
+}
