@@ -96,14 +96,14 @@ z-index:9999;
 .logo img{
     width:160px;
 }
-
 .nav-links{
     display:flex;
-    list-style:none;
     gap:30px;
-    margin:0;
-    padding:0;
+    list-style:none;
 }
+
+
+
 
 .nav-links a{
     color:#fff;
@@ -643,4 +643,37 @@ display:flex;
 .nav-call{
 display:none;
 }
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    cursor:pointer;
+    color:#fff;
+}
 
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        position:fixed;
+        top:70px;
+        left:0;
+        width:100%;
+        background:#08111f;
+        flex-direction:column;
+        align-items:center;
+        padding:25px 0;
+        gap:20px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .logo{
+        display:none;
+    }
+}
