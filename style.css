@@ -700,9 +700,13 @@ to{
         grid-template-columns:1fr;
         gap:15px;
     }
+.gallery-card img{
+    aspect-ratio:16 / 9;
+    height:auto;
+    width:100%;
+    object-fit:cover;
+}
 
-    .gallery-card img{
-        height:180px;
     }
 
 }
