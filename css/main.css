@@ -181,7 +181,7 @@ header{
 }
 
 .logo img{
-    width:120px;
+    width:100px;
     height:auto;
     display:block;
 }
@@ -238,6 +238,11 @@ header{
 
     background:#3b82f6;
 
+   }
+header .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
 /* =======================================
@@ -835,6 +840,7 @@ footer{
     cursor:pointer;
     display:block;
     margin-left:auto;
+margin-top:-10px;
 }
 
 
