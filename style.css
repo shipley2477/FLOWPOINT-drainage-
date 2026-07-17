@@ -716,3 +716,53 @@ to{
 .review-card strong{
     color:#fff;
 }
+.contact-card{
+    padding:80px 8%;
+    background:#0d1628;
+    text-align:center;
+}
+
+.contact-info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.contact-info div{
+    background:#111d33;
+    padding:30px;
+    border-radius:16px;
+}
+
+footer{
+    background:#08101d;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.socials{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin:30px 0;
+}
+
+.socials a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.floating-call{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    background:#2d7cff;
+    color:#fff;
+    padding:16px 26px;
+    border-radius:50px;
+    font-weight:bold;
+    text-decoration:none;
+    box-shadow:0 10px 30px rgba(45,124,255,.35);
+    z-index:9999;
+}
