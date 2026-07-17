@@ -179,17 +179,16 @@ header{
 
 }
 
-nav{
-
+.navbar{
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
-    padding:22px 0;
-
+    padding:20px 0;
+    gap:30px;
 }
+
+
+
 
 .logo img{
 
@@ -200,12 +199,13 @@ nav{
 }
 
 .nav-links{
-
     display:flex;
-
+    list-style:none;
     gap:35px;
-
+    margin-left:auto;
 }
+
+
 
 .nav-links a{
 
@@ -222,22 +222,15 @@ nav{
     color:#3b82f6;
 
 }
-
 .call-btn{
-
     background:#2563eb;
-
-    color:white;
-
-    padding:14px 26px;
-
-    border-radius:999px;
-
+    color:#fff;
+    padding:14px 28px;
+    border-radius:50px;
+    text-decoration:none;
     font-weight:700;
-
-    transition:.3s;
-
 }
+
 
 .call-btn:hover{
 
