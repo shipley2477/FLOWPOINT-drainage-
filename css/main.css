@@ -166,28 +166,33 @@ p{
 ======================================= */
 
 header{
-
     position:sticky;
-
     top:0;
-
     z-index:1000;
-
     background:#08111f;
-
     border-bottom:1px solid rgba(255,255,255,.08);
-
+    padding:20px;
 }
-.navbar{
+
+header .container{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    position:relative;
 }
+
 .logo img{
-    width:120px;
+    width:140px;
     height:auto;
     display:block;
+}
+
+.menu-toggle{
+    background:none;
+    border:none;
+    color:#fff;
+    font-size:40px;
+    cursor:pointer;
+    line-height:1;
 }
 
 .nav-links{
