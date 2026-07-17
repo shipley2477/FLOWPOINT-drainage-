@@ -184,21 +184,32 @@ header{
     justify-content:space-between;
     align-items:center;
     gap:20px;
+   position:relative;
+
 }
 .logo img{
     width:140px;
     height:auto;
 }
 .nav-links{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:#08111f;
+    display:none;
+    flex-direction:column;
+    padding:25px 0;
     list-style:none;
-    margin:0;
-    padding:0;
-    flex:1;
+    text-align:center;
+    gap:20px;
+    border-top:1px solid rgba(255,255,255,.1);
 }
+
+.nav-links.active{
+    display:flex;
+}
+
 
 
 
