@@ -183,10 +183,10 @@ header{
     display:flex;
     align-items:center;
 }
-
 .logo img{
-    width:120px;
+    width:90px;
     height:auto;
+    display:block;
 }
 .menu-toggle{
     background:none;
@@ -195,6 +195,12 @@ header{
     font-size:36px;
     cursor:pointer;
     margin-left:auto;
+    padding:8px;
+    transition:.3s;
+}
+
+.menu-toggle:hover{
+    color:#3b82f6;
 }
 
 
@@ -254,12 +260,14 @@ header{
     background-repeat:no-repeat;
 
 }
-
 .hero-content{
-
     max-width:720px;
-
+    margin:auto;
+    text-align:center;
+    padding:40px 20px;
+    animation:fadeUp 1s ease;
 }
+
 
 .hero-tag{
 
@@ -274,21 +282,18 @@ header{
     margin-bottom:25px;
 
 }
-
 .hero h1{
-
+    font-size:clamp(3rem,7vw,5rem);
+    line-height:1;
     margin-bottom:25px;
-
+    font-weight:800;
 }
-
 .hero p{
-
-    font-size:1.15rem;
-
+    font-size:1.2rem;
     max-width:650px;
-
-    margin-bottom:40px;
-
+    margin:25px auto 40px;
+    line-height:1.8;
+    color:#d1d5db;
 }
 
 .hero-buttons{
@@ -813,6 +818,18 @@ footer{
         grid-template-columns:1fr;
 
     }
+@keyframes fadeUp{
 
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
 
 
