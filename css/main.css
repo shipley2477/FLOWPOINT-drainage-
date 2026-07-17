@@ -179,6 +179,10 @@ header{
     align-items:center;
     width:100%;
 }
+.logo{
+    display:flex;
+    align-items:center;
+}
 
 .logo img{
     width:120px;
