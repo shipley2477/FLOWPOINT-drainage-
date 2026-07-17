@@ -135,3 +135,36 @@
     font-weight:700;
 
 }
+.hero-content{
+    max-width:700px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.hero h1{
+    margin:20px 0;
+}
+
+.hero p{
+    max-width:650px;
+    margin:0 auto;
+    font-size:1.2rem;
+}
+
+.hero-buttons{
+    margin-top:40px;
+}
+
+.trust-item{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    font-size:1rem;
+}
+
+.trust-item span{
+    color:#fff;
+    font-weight:700;
+}
