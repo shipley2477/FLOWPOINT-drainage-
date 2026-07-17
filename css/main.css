@@ -820,5 +820,29 @@ footer{
 
     }
 
+}/* MOBILE MENU */
+
+.menu-toggle{
+    display:block;
+    background:none;
+    border:none;
+    color:#fff;
+    font-size:32px;
+    cursor:pointer;
+}
+
+.nav-links{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    margin-top:20px;
+    gap:20px;
+    list-style:none;
+    text-align:center;
+    padding:0;
+}
+
+.nav-links.active{
+    display:flex;
 }
     
