@@ -170,7 +170,7 @@ header{
     top:0;
     z-index:1000;
     background:#08111f;
-    padding:15px 20px;
+    padding:10px 20px;
 }
 
 .navbar{
@@ -234,7 +234,7 @@ header{
 
 .hero{
 
-    min-height:90vh;
+    min-height:calc(100vh - 90px);
 
     display:flex;
 
