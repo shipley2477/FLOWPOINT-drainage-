@@ -184,14 +184,15 @@ header{
     width:120px;
     height:auto;
 }
-
 .menu-toggle{
     background:none;
     border:none;
     color:#fff;
-    font-size:34px;
+    font-size:36px;
     cursor:pointer;
+    margin-left:auto;
 }
+
 
 .nav-links{
     display:none;
