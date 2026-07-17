@@ -17,3 +17,46 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+/* HEADER */
+
+header {
+    background: #08111f;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.nav-links a:hover {
+    color: #3b82f6;
+}
+
+.call-btn {
+    background: #2563eb;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
