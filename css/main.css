@@ -818,7 +818,8 @@ footer{
         grid-template-columns:1fr;
 
     }
-@keyframes fadeUp{
+}
+   @keyframes fadeUp{
 
     from{
         opacity:0;
@@ -869,3 +870,4 @@ footer{
     min-height:180px;
 }
 
+}
