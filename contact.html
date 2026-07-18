@@ -154,22 +154,14 @@
             Fill in the form below and we'll get back to you as soon as possible.
         </p>
 <form class="contact-form"
-      action="https://formsubmit.co/harvey@flowpointdrainage.com"
+      action="https://api.web3forms.com/submit"
       method="POST">
 
-    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="hidden" name="access_key" value="d810b7ed-d195-4e9a-a417-83cf76448101">
 
-    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <input type="hidden" name="subject" value="New enquiry from Flowpoint Drainage">
 
-    <input type="email" name="email" placeholder="Email Address">
-
-    <textarea name="message" placeholder="Tell us about your drainage problem..." rows="6"></textarea>
-
-    <input type="hidden" name="_subject" value="New enquiry from FlowPoint Drainage">
-
-    <input type="hidden" name="_captcha" value="false">
-
-    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="redirect" value="https://flowpointdrainage.com/thank-you.html">
 
     <button type="submit" class="primary-btn">
         Send Enquiry
