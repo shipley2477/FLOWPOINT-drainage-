@@ -153,15 +153,21 @@
         <p class="section-text">
             Fill in the form below and we'll get back to you as soon as possible.
         </p>
-<form class="contact-form"
-      action="https://api.web3forms.com/submit"
-      method="POST">
+<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 
-    <input type="hidden" name="access_key" value="d810b7ed-d195-4e9a-a417-83cf76448101">
+    <input type="hidden" name="access_key" value="...">
 
     <input type="hidden" name="subject" value="New enquiry from Flowpoint Drainage">
 
     <input type="hidden" name="redirect" value="https://flowpointdrainage.com/thank-you.html">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="tel" name="phone" placeholder="Phone Number">
+
+    <input type="email" name="email" placeholder="Email Address" required>
+
+    <textarea name="message" placeholder="Tell us how we can help" required></textarea>
 
     <button type="submit" class="primary-btn">
         Send Enquiry
